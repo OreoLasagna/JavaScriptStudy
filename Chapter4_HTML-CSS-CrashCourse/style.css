@@ -1,0 +1,71 @@
+/*The (*) star selector grabs and applies to all the elements on a page*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: rgb(255, 247, 201);
+    font-family: Arial;
+    font-size: 20px;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+ 
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+
+/* Call classes with the (.) dot notation in css*/
+
+.first {
+    color: red;
+}
+
+/*Call ids with the hash notation in css*/
+
+#your-name {
+    background-color: rgb(255, 220, 105);
+    border: 5px solid #444;
+    width: 400px;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+
+/*Can apply the same rules to multiple things at once with commas*/
+input,button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+/**Don't forget that 'a' refers to hyperlinks on the page. Better highlight links*/
+a {
+    background-color: yellowgreen;
+}
+
+#course-image {
+    width: 300px;
+}
+
+
+/*Instead of calling and changing every h2 header... we can change a specific one inside a  specific id*/
+#your-name h2 {
+    color: olivedrab;
+}
+
